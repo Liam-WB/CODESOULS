@@ -1,0 +1,18 @@
+# Build folder
+/build/
+
+# Executable/binary files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# VS Code settings
+.vscode/
+
+# Mac system files (optional)
+.DS_Store
+
+# Other temporary files
+*.log
