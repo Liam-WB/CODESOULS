@@ -10,7 +10,11 @@ set(SFML_DIR "C:/Users/warad/OneDrive/Documents/SFML-3.0.2-windows-vc17-64-bit/S
 # SFML 3 REQUIRES components
 find_package(SFML REQUIRED COMPONENTS Graphics Window System)
 
-add_executable(CodeSouls src/main.cpp)
+add_executable(CodeSouls
+    src/main.cpp
+    src/Game.cpp
+    src/Player.cpp
+)
 
 target_link_libraries(CodeSouls PRIVATE
     SFML::Graphics
